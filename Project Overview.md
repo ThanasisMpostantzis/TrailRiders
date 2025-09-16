@@ -1,0 +1,67 @@
+# TrailRiders Greece
+
+TrailRiders connects motorcyclists and car enthusiasts to plan and join rides or events. Explore routes on an interactive map, join others' adventures, create your own gatherings, and share locations with fellow riders for a safer riding experience.
+
+---
+
+## TrailRiders – Project Overview
+
+TrailRiders is a social app connecting motorcyclists and car enthusiasts to organize rides, events, and gatherings. The goal is to foster community, improve safety, and make it easy for users to join or create adventures with fellow riders.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React Native (cross-platform for iOS & Android)  
+- **Backend:** Node.js / Express.js (REST API)  
+- **Database:** MongoDB (user data, rides, events)  
+- **Cloud & Hosting:** AWS (EC2 / Lambda / S3 for media storage, Cognito for authentication)  
+- **Maps & Navigation:** Google Maps API / Mapbox for route previews and interactive maps  
+- **Push Notifications:** Firebase Cloud Messaging (FCM)  
+- **Authentication & Security:** JWT, OAuth (optional for social logins), HTTPS  
+
+*Future options: real-time features via WebSockets or AWS AppSync, in-app chat, analytics via AWS Amplify or Google Analytics.*
+
+---
+
+## Core Functions / Features
+
+- **User Management**  
+  - Sign up / login / profile management  
+  - Rider type selection (motorcycle / car / both)  
+  - Preferences (ride difficulty, distance, type of event)
+
+- **Ride Management**  
+  - Create a ride with start/end locations, waypoints, time, and date  
+  - Route preview with interactive map  
+  - Join existing rides from other users  
+  - Ride details: participants, distance, expected duration
+
+- **Event Management**  
+  - Create events (gatherings, meetups, rallies)  
+  - RSVP system for participants  
+  - Event description, photos, and schedule
+
+- **Safety Features**  
+  - Share live location with ride participants  
+  - Notifications if someone is left behind or offline  
+  - Optional route tracking for emergency situations
+
+- **Social / Community Features**  
+  - Follow favorite riders or groups  
+  - Comments or discussions on rides/events  
+  - Ratings or feedback system for rides
+
+- **Media & Documentation**  
+  - Upload photos or screenshots from rides  
+  - Store ride history and personal ride stats
+
+---
+
+## Future App Features
+
+- Dark mode / light mode support  
+- Push notifications for upcoming rides/events  
+- Auto filter rides via location, type, or popularity  
+- Analytics for ride trends and popular routes  
+- Monetization potential: premium subscriptions, sponsored events, ads, sponsored shops to stops
