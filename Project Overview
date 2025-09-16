@@ -1,10 +1,10 @@
-# TrailRiders Greece
+##TrailRiders Greece
   TrailRiders connects motorcyclists and car enthusiasts to plan and join rides or events. Explore routes on an interactive map, join others adventures, create your own gatherings, and share locations with fellow riders for a safer riders experience.
 
 ---
 
 
-|| TrailRiders – Project Overview ||
+**TrailRiders – Project Overview**
 
 
   TrailRiders is a social app connecting motorcyclists and car enthusiasts to organize rides, events, and gatherings. The goal is to foster community, improve safety, and make it easy for users to join or create adventures with fellow riders.
@@ -12,7 +12,7 @@
 ---
 
 
-|| Tech Stack ||
+**Tech Stack**
 
   -Frontend: React Native (cross-platform for iOS & Android).
 
@@ -32,7 +32,7 @@
 
 ---
 
-|| Core Functions / Features ||
+**Core Functions / Features**
 
   -User Management.
 
@@ -84,7 +84,7 @@
 
 ---
 
-|| **Future App Features** ||
+**Future App Features**
 
   -Dark mode / light mode support.
 
