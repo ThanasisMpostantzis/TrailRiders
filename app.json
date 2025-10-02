@@ -1,15 +1,34 @@
 {
   "expo": {
-    "name": "trailRiders",
+    "name": "Trail Riders Greece",
     "slug": "trailRiders",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
+    "icon": "./images/logo.webp",
     "scheme": "trailriders",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
+    },
+    "splash": {
+      "image": "./images/logo.webp",
+      "resizeMode": "contain",
+      "backgroundColor": "#DCDCDC"
+    },
+    "android": {
+      "splash": {
+        "image": "./images/logo.webp",
+        "resizeMode": "contain",
+        "backgroundColor": "#DCDCDC"
+      }
+    },
+    "ios": {
+      "splash": {
+        "image": "./images/logo.webp",
+        "resizeMode": "contain",
+        "backgroundColor": "#DCDCDC"
+      }
     },
     "android": {
       "adaptiveIcon": {
