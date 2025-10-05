@@ -14,7 +14,7 @@ export default function LoginRegisterScreen() {
       
       <View style={styles.banner}>
         <Image source={require('@/images/logo.webp')} style={styles.logo} />
-        <Text style={styles.appName}>MyRide App</Text>
+        <Text style={styles.appName}>Trail Riders</Text>
         <Text style={styles.slogan}>Your next ride is waiting — discover it, plan it, live it.</Text>
       </View>
 
