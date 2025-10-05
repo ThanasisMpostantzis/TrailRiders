@@ -25,7 +25,7 @@ export default function Splash() {
 
     let currentProgress = 0;
     const interval = setInterval(() => {
-      currentProgress += 2; // αυξάνουμε σταδιακά
+      currentProgress += 4; // αυξάνουμε σταδιακά
       if (currentProgress > 100) currentProgress = 100;
       setProgress(currentProgress);
       Animated.timing(progressAnim, {
@@ -40,7 +40,7 @@ export default function Splash() {
 
     // Προσομοίωση φόρτωσης API/asset
     (async () => {
-      await new Promise(resolve => setTimeout(resolve, 2500)); // assets/API
+      await new Promise(resolve => setTimeout(resolve, 200)); // assets/API
       const elapsed = Date.now() - start;
       const remaining = Math.max(minTime - elapsed, 0);
       await new Promise(resolve => setTimeout(resolve, remaining));
@@ -75,7 +75,7 @@ export default function Splash() {
 
 const styles = StyleSheet.create({
   container: { flex: 1, backgroundColor: '#fff', justifyContent: 'center', alignItems: 'center', padding: 20 },
-  logo: { width: 180, height: 180, resizeMode: 'contain', marginBottom: 20 },
+  logo: { width: 180, height: 180, resizeMode: 'contain', marginBottom: 20, borderRadius: 10 },
   title: { fontFamily: 'JacquesFrancoisShadow', fontSize: 32, color: '#000', marginBottom: 40, textAlign: 'center' },
   progressBackground: { width: '80%', height: 10, backgroundColor: '#ddd', borderRadius: 5, overflow: 'hidden' },
   progressBar: { height: '100%', backgroundColor: '#2E86AB' },
